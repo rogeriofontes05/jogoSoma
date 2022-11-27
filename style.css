@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    width: 30rem;
+    height: 7rem;
+    border-radius: 1rem;
+    background-color: antiquewhite;
+    margin-bottom: 1rem;
+}
+
+.question .digitos,
+.divTeste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #666;
+}
+
+.question h1 {
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 1rem;
+}
+
+.inputResposta {
+    background-color: aliceblue;
+    height: 5rem;
+    width: 30rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#botao {
+    width: 30rem;
+    height: 5rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #6494ed;
+    color: aliceblue;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#botao:hover {
+    background-color: rgb(226, 231, 241);
+    color: #6494ed;
+}
+
+.display {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    align-items: center;
+    border: 1px solid;
+    width: 35rem;
+    background-color: rgb(183, 206, 207);
+    border-radius: 1rem;
+}
+
+#aviso {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #777;
+    height: 15rem;
+    width: 30rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.recarrega img {
+    width: 40px;
+    cursor: pointer;
+}
+
+.msg1 {
+    font-size: 26px;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0 auto;
+}
+
+.msg1Erro {
+    color: tomato;
+}
+
+.msg2,
+.msg3 {
+    margin: 0.5rem;
+    color: #555;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    width: 400px;
+}
+
+.score .pontos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.acertos {
+    color: blue;
+}
+
+.erros {
+    color: red;
+}
+
+.percentual {
+    color: #333;
+    font-size: 30px;
+}
+
+.percent {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 150px;
+    height: 90px;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.percent h1 {
+    margin-bottom: 10px;
+    color: #6494ed;
+    font-size: 30px;
+}
+
+#percentNome {
+    font-size: 20px;
+    color: #6494ed;
+}
+
+.score p {
+    color: #555;
+    font-size: 20px;
+}
