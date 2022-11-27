@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+  <div class="display">
+    <div class="score">
+      <div class="pontos">
+        <h1 class="acertos">0</h1>
+        <p>acertos</p>
+      </div>
+      <div class="pontos">
+        <h1 class="erros">0</h1>
+        <p>Erros</p>
+      </div>
+      <div class="pontos percent">
+        <h1 class="percentual">0%</h1>
+        <p id="percentNome">Acertos</p>
+      </div>
+    </div>
+    <div class="question">
+      <div class="digitos">
+        <h1 id="n1"></h1>
+        <h1 id="operador">+</h1>
+        <h1 id="n2"></h1>
+      </div>
+    </div>
+    <div>
+      <input class="inputResposta" type="number">
+    </div>
+    <button onclick="verificaNumero()" id="botao">Calcula</button>
+    <div id="aviso">
+      <h3 class="msg1"></h3>
+      <h3 class="msg2"></h3>
+      <h3 class="msg3"></h3>
+    </div>
+    <div class="recarrega">
+      <img onclick="recarregar()" src="https://cdn-icons-png.flaticon.com/512/189/189687.png" alt="">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
